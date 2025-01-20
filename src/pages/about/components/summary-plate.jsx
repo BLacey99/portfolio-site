@@ -7,7 +7,7 @@ export function SummaryPlate() {
         <div className="px-4 text-center text-wrap">
           <h2 className="text-2xl font-bold">Problem Solver</h2>
           <br></br>
-          <p>Complex problems can be broken down into sequences of simple solutions yet effective. I'm the person who deciphers your problems.</p>
+          <p>Complex problems can be broken down into sequences of simple, yet effective solutions. I'm the person who deciphers your problems.</p>
           <br></br>
           <br></br>
           <p className="text-blue-600 font-bold">The type of solutions I provide:</p>
