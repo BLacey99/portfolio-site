@@ -53,10 +53,10 @@ export function SummaryPlate() {
           <p>I've worked as a fullstack developer domestically in my home country of the United States, as well as abroad in Europe! I am bilingual, with certified work proficiency in German, and I am actively studying additional languages.
             <br></br>
             <br></br>
-            I successfuly headed a translation team in conjunction with my daily duties as a developer. I led the efforts of localization of over seven langauges for enterprise grade software solutions, working across multiple timezones with my colleagues and reaching across several cultural barriers.
-            <br></br>
-            <br></br>
             I've successfully headed optimization efforts across several software solutions, some of my most notable metrics being an instance of reducing memory consumption by over 50% and increasing speed by over 80% for the main order handling system of a company.
+            <br></br>
+            <br></br>
+            I successfuly headed a translation team in conjunction with my daily duties as a developer. I led the efforts of localization of over seven langauges for enterprise grade software solutions, working across multiple timezones with my colleagues and reaching across several cultural barriers.
           </p>
         </div>
 
