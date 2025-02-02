@@ -3,7 +3,7 @@ import React from "react"
 export function SummaryPlate() {
   return (
     <>
-      <div className="grid grid-cols-3 w-3/4 p-8 rounded-xl bg-white divide-x border-gray-200 border-2 -mt-28">
+      <div className="grid grid-cols-3 w-3/4 p-8 rounded-xl bg-white divide-x border-gray-200 border-2 -mt-28 font-serif">
         <div className="px-4 text-center text-wrap">
           <h2 className="text-2xl font-bold">Problem Solver</h2>
           <br></br>
