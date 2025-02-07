@@ -3,9 +3,9 @@ import React from "react"
 export function SummaryPlate() {
   return (
     <>
-      <div className="grid grid-cols-3 w-3/4 p-8 rounded-xl bg-white divide-x border-gray-200 border-2 -mt-28 font-serif">
+      <div className="lg:grid lg:grid-cols-3 sm:flex sm:flex-col sm:gap-16 sm:w-1/2 lg:divide-x  lg:w-3/4 lg:p-8 sm:p-4 rounded-xl bg-white  border-gray-200 border-2 -mt-28 font-serif">
         <div className="px-4 text-center text-wrap">
-          <h2 className="text-2xl font-bold">Problem Solver</h2>
+          <h2 className="text-2xl font-bold font-bold font-serif text-transparent bg-clip-text bg-gradient-to-r from-pink-700 via-purple-600 to-indigo-700">Problem Solver</h2>
           <br></br>
           <p>Complex problems can be broken down into sequences of simple, yet effective solutions. I'm the person who deciphers your problems.</p>
           <br></br>
@@ -26,13 +26,13 @@ export function SummaryPlate() {
           </ul>
         </div>
         <div className="px-4 text-center text-wrap">
-          <h2 className="text-2xl font-bold">Fullstack Developer</h2>
+          <h2 className="text-2xl font-bold font-bold font-serif text-transparent bg-clip-text bg-gradient-to-r from-pink-700 via-purple-600 to-indigo-700">Fullstack Developer</h2>
           <br></br>
           <p>I like to be involved in the entire process. I enjoy bringing your designs to life, as well as building the mechanisms and handling data.</p>
           <br></br>
           <br></br>
           <p className="text-blue-600 font-bold">Languages I utilize:</p>
-          <p>Javascript, Typescript, Java, C#, Kotlin, Python, SQL, HTML, CSS</p>
+          <p>Javascript, Typescript, Java, C#, Kotlin, Python, SQL, HTML, CSS, GraphQL</p>
           <br></br>
           <br></br>
           <p className="text-blue-600 font-bold">Environments, Libraries, Frameworks:</p>
@@ -40,7 +40,7 @@ export function SummaryPlate() {
         </div>
 
         <div className="px-4 text-center text-wrap">
-          <h2 className="text-2xl font-bold">Experienced Teamplayer</h2>
+          <h2 className="text-2xl font-bold font-bold font-serif text-transparent bg-clip-text bg-gradient-to-r from-pink-700 via-purple-600 to-indigo-700">Experienced Teamplayer</h2>
           <br></br>
           <p>I have extensive experience working within Agile frameworks, as well as international and cross-cultural communications.</p>
           <br></br>

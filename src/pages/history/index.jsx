@@ -1,22 +1,23 @@
 import React from "react"
 
+import kmon from '/kmonlogo.svg'
+import mckenna from '/mckennalogo.svg'
+
 export function History() {
   return (
     <>
-      <div className="bg-gradient-to-r from-sky-600 via-blue-700 to-sky-600 p-4 text-center w-full items-center justify-center flex flex-col text-white py-20">
-        <h2 className="text-3xl font-bold w-1/2 py-8 font-serif">
-          Employment Partners I've had the pleasure of working with over the years</h2>
+      <div className="p-4 text-center w-full items-center justify-center flex flex-col text-black py-20">
+        <h1 className="text-4xl font-bold w-1/2 py-8 font-serif font-serif text-transparent bg-clip-text bg-gradient-to-r from-pink-700 via-purple-600 to-indigo-700">
+          Previous Employment Partners</h1>
          
-         <div className="bg-white text-black p-8 place-items-center rounded-xl grid grid-cols-2 border-gray-800 border-2 w-3/4">
+         <div className="bg-white text-black  place-items-center rounded-xl lg:grid lg:grid-cols-2 border-gray-200 py-16 px-16 border-2 w-3/4 sm:flex sm:flex-col sm:gap-8">
 
-          <div className="text-center border-purple-400 border-2 w-3/4 rounded-xl font-serif">
-            <p>McKenna Professional Imaging</p>
-            <em>Software Engineer & Network Specialist</em>
+          <div className="text-center ">
+          <a href="https://mckennapro.com/" target="#"><img src={mckenna} className="border-2 border-transparent hover:border-purple-600"></img></a>
           </div>
 
-          <div className="text-center border-purple-400 border-2 w-3/4 rounded-xl font-serif">
-            <p>KM.ON By Karl Mayer</p>
-            <em>Full Stack Software Engineer</em>
+          <div className="text-center ">
+          <a href="https://www.kmon.net/en/" target="#"><img src={kmon} className="border-2 border-transparent hover:border-purple-600"></img></a>
           </div>
 
           </div>
